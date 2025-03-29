@@ -49,18 +49,11 @@ The `sender.py` script encodes a covert message into network traffic:
 ```bash
 python sender.py
 ```
-- **Options**:
-  - `-m`: Message to encode.
-  - `-i`: Interface for network traffic (optional).
-
 ### Receiver Script (`receiver.py`)
 The `receiver.py` script decodes the message from network traffic:
 ```bash
 python receiver.py
 ```
-- **Options**:
-  - `-i`: Network interface to monitor for covert messages.
-
 ### Example
 1. Run `receiver.py` on the target machine to start listening.
 2. Execute `sender.py` on the sender machine to transmit the covert message.
